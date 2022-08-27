@@ -1,0 +1,393 @@
+########### First and Most important questions you need to understand #############
+
+1. Introduce yourself?
+2. What is the project architecture that is follow in your organization?
+3. What are the different projects you work on?
+4. Explian the work flow and the actual process flow in your project?
+5. What are your daily tasks and activities in your organization?
+6. Which teams do you support mainly?
+7. Explain different tools you worked on?
+8. Questions on Kubernetes project work flow? and your duties in it.
+9. How do you automate the processes?
+11. Explain your project flow and what are the activities you perform?
+12. Where do you host your application?
+13. What is process of the application?
+14. What type of project that you work on?
+15. Chat bot is a service are you going to develop only 1 service and deploy into production.
+16. Where are the artifacts store?
+17. How you deploy the artifacts?
+18. How does the AWS devops helps in your project?
+
+
+About Project:
+What is the project related to.
+How many are there in your team.
+What tpe of projects that you had worked on.
+What is the project/process flow from starting to end and what is your role there.
+
+
+
+
+How to deploy to 100 servers at a time?
+What are the roles you played in your laptop?
+Where do you find errors in Jenkins?
+How do you configures3 bucket?
+If there is suddenly the file is deleted in git and how do you get it back?
+Daily activities what you have done in the current project?
+Three members have same password one I have to change write a script for this example?
+Where can you find the particular error in logs?
+What are the modules you have used in ansible?
+The flow of SonarQube? why we use it?
+What is the use of quality gates in sonarqube?
+As a DevOps engineer why we use Jira Tool?
+What is Release management due to production?
+#curl www.google.com is not working and telnet www.google.com is working now?
+My webservers are running in private subnet I want to route my ELB Traffic to web servers in private subnets?
+I am having two instances in public and private subnets, I am pinged from one server to another server and getting any response but by using telnet<ip> on port 23 it's working now?
+My webservers are running in private subnet I want to route my ELB Traffic to web servers in private subnets?
+Why Terraform? why not others?
+If my RDS is running out of space how will you resolve that without launching other RDS?
+How will you take backups using Lambda?
+How can you fix “chmod –x /usr/bin/chmod”?
+Write a simple script that called with “Foo” prints “bar” and when called with “bar” prints “foo”. Every other option should print “Try again”?
+Can you increase the size of root volume without shutdown the instance?
+If you lost the pem file then how will you connect to EC2?
+What type of data do you store in s3 and EBS?
+What is the Terraform plan?
+How will run lambda and where you will configure lambda?
+What type of deployments you’re using in the project?
+Why we go for Groovy in Jenkins and where you save Jenkins file.
+Where will you run Terraform code in the remote or local machine?
+What are the environments in your project?
+Have you used the same account for all environments?
+For every environment do you have different Jenkins servers?
+Can tell what are issues you faced in your project? How do you resolve it and how do you come to know the issues?
+To what extent your project is automated?
+Explain me how do you take backups for RDS?
+How many servers are there in you production and location?
+Write Terraform code for an S3 bucket and attach a policy?
+Have used any pre-defined modules in your project?
+What type of deployments do you follow in your project?
+What is CROS in s3?
+
+
+1. What's Linux kernel
+2. What's linux Shell
+3. Why is #! Written in bash script
+4. Types of shells
+5. Can any user have root like permission, how to do it.
+6. What is OS hardening
+7. RAM monitoring tools in linux(6ways)
+8. 1machine in INDIA and other machine in USA , if not able to do SSH.. what's the problem
+9. What's VPC endpoint
+10. Function of Router and Firewall.. also explain in layman terms
+11. Examples of TCP and UDP
+12. File named abc.txt. Even root is not able to delete it.. ( but believe me its not even lsattr, chattr, sticky bit)
+13. Explain process of ssh
+14. Server infrastructure or maintenance tools and process
+15. INNOdb and MyISAM difference.
+16. How to connect database
+17. Few files provided and asked to write commands... Dont exactly remember the process! 😠😁
+18. Process for LVM
+19. Something related to resolve.conf
+20. DNS process
+21. Some  chmod commands..
+22. Asked me how i reacted to different situation while i was involved in particular task.
+23. Where did u lag
+24. What's the thing that makes u proud and give an example
+25. Different situation with Client and how would u react
+26. What was your involvement in using EC2, RDS instance
+27. What kind of bash scripts did u write.. (i know basic tasks and write any only acc. To requirement.. i am not any better bash scripts 😜)
+
+
+Monitoring all the environments, debugging issues and resolve the same in a timely manner.
+Worked on Jira for bug tracking and project management, databases like Mysql, Redis.
+Implemented docker swarm for python application in both Prod and Non-Prod.
+Created pipelines in Jenkins to deploy applications, AWS Custom IAM policies to make minimal access to services.
+Created pipelines to integrate code and deliver the compiled code or artifacts on the applications
+Vital experience in resolving the Git conflicts and implementing the best branching strategies.
+
+Managed and created user accounts, shared folders, Printing Services, Providing day to day user support, Log management, reporting, applying Group policy restrictions, etc.
+Good Knowledge on Linux.
+Worked on installing plug-ins, creating jobs, integrating test cases.
+Alert Handling and troubleshooting for all applications.
+Solving the issues based on customer requirements.
+Participated in Internal Audits and Information security Audits.
+
+
+
+
+AWS:
+1)	What is VPC and its components (Public, private, NACL, Route tables, Internet gateway)
+A VPC is a logically isolated virtual network, spanning an entire AWS Region, where your EC2 instances are launched. A VPC is primarily concerned with enabling the following capabilities: Isolating your AWS resources from other accounts. Routing network traffic to and from your instances.
+IPv4 and IPv6 address blocks.
+Subnet creation.
+Route tables.
+Internet connectivity.
+Elastic IP addresses (EIPs)
+Network/subnet security.
+Additional networking services.
+
+2)	What is differenece between NACL and Security groups
+NACLs are stateless this means that return traffic must be explicitly allowed by rules. Security groups support Allow rules only. NACLs support both Allow and deny rules. With Security Groups AWS checks all rules to decide whether to allow traffic
+
+3)	What is diffrenet types of load balance and tell diffrenece between Network and application load balancer
+Load balancing spreads traffic over multiple systems that may be geographically distributed in clouds or data centers and located in virtual servers or dedicated systems around the world. For example, without load balancing, everyone who checked a news website or shopped online would access the same system. If all that traffic flowed to any single system, the servers would become hopelessly bogged down. Load balancing directs that traffic among servers so they share the load more evenly.
+Network load balancing operates at Layer 4 is implemented in a system or device that operates similarly to a router, often with hardware and software designed specifically for the purpose. It operates at Layer 4, the transport layer, and supports protocols like TCP
+End users make requests to services using commonly known domain names.
+
+Application load balancing operates at Layer 7 (Path and Port based), the application layer. An application installed on a server examines each incoming request, such as HTTPS or Simple Mail Transfer Protocol requests. Application load balancing can direct requests toward one of the servers best able to satisfy the request. For example, an online shopping request could be directed to a system maintaining the inventory for that type of product.
+Network load balancing and application load balancing each have advantages, depending on the type of internet service required. Network, or Layer 4, load balancers can provide faster responses, as they forward requests without examining them. Application, or Layer 7, load balancers can provide greater overall efficiency, as they can send requests where they are most efficiently handled.
+
+4)	What is route 53, types of routing policy and routing used
+Route 53 determines the location of the user based on the truncated IP address rather than the source IP address of the DNS resolver; this typically provides a more accurate estimate of the user's location. Route 53 then responds to geolocation queries with the DNS record for the user's location.
+Multivalue answer routing policy — Use when you want Route 53 to respond to DNS queries with up to eight healthy records selected at random.
+Simple Routing Policy. ...
+Weighted Routing Policy. ...
+Latency Routing Policy. ...
+Failover Routing Policy. ...
+Geolocation Routing Policy.
+Geoproximity Routing Policy (Traffic Flow Only)
+
+When you create a geoproximity rule, Route 53 routes internet traffic to the resource that is closest to your users by default. You can also choose to route more or less traffic to a resource by specifying a bias that expands or shrinks the geographic area from which traffic is routed to a resource.
+
+5)	What is ASG and Launch config
+An Auto Scaling group contains a collection of Amazon EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management. An Auto Scaling group also enables you to use Amazon EC2 Auto Scaling features such as health check replacements and scaling policies.
+
+A launch configuration is an instance configuration template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances
+
+6)	How to restore the login into ec2 if pem file is lost
+Accessing the EC2 instance even if you loose the pem file is rather easy.
+
+First, create a new instance by creating new access file, call it 'helper' instance with same region and VPC as of the lost pem file instance.
+
+Now stop the lost pem file instance. Remember not to terminate instance but to stop it.
+
+Go to EBS volumes, select the root volume of the lost pem file instance and detach.
+
+Now again select the detached volume and this time you have to attach this volume to helper instance which we created before. Since helper instance already has a root volume by default as /dev/sda1, the newly attached volume will be secondary(eg: /dev/sdf).
+
+Login to your helper instance with its pem file.
+
+Execute below commands:
+
+# mount /dev/xvdf1 /mnt
+# cp /root/.ssh/authorized_keys /mnt/root/.ssh/
+# umount /mnt
+Detach the secondary volume from helper instance.
+
+Again attach the volume back to our recovery instance. Start the instance. Terminate the helper instance.
+
+Use helper instance pem file to log into recovery instance.
+
+7)	How to encrypt the unencrypted AMI
+In the source account, create an EBS-backed custom AMI starting from a public AWS AMI in the source region.
+Add your encrypted EBS snapshots to the custom AMI, and give the target account access to the KMS encryption keys.
+Share your encrypted snapshots with the target account.
+
+8)	What is EBS and EFS
+EBS is a high-performance per-instance block storage system designed to (EBS) act as storage for a single EC2 instance (most of the time) EFS is a highly scalable file storage system designed to (EFS) provide flexible storage for multiple EC2 instances.
+EBS: Can only be accessed by a single Amazon EC2 instance. EFS: Can be accessed by 1 to 1000s of EC2 instances from multiple AZs, concurrently. EFS: File storage service for use with AWS EC2. EFS can be used as network file system for on-premise servers too using AWS Direct
+AWS EBS is only available in a particular region, while you can share files between regions on multiple EFS instances
+
+9)	What is VPC pearing and VPC endpoint
+Peering Connection: A peering connection enables you to route traffic via private IP addresses between two peered VPCs. VPC Endpoints: Enables private connectivity to services hosted in AWS, from within your VPC without using an Internet Gateway, VPN, Network Address Translation (NAT) devices, or firewall proxies.
+A VPC endpoint enables connections between a virtual private cloud (VPC) and supported services, without requiring that you use an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Therefore, you control the specific API endpoints, sites, and services that are reachable from your VPC.
+VPC Network Peering enables you to connect VPC networks so that workloads in different VPC networks can communicate internally. Traffic stays within Google's network and doesn't traverse the public internet.
+
+10)	What is S3/types of S3 bucket/S3 bucket policy/S3lifecycle
+Amazon S3 is object storage built to store and retrieve any amount of data from anywhere. It’s a simple storage service that offers industry leading durability, availability, performance, security, and virtually unlimited scalability at very low costs.
+You can store virtually any kind of data in any format.
+ S3 bucket that has different objects stored in S3 Standard, S3 Intelligent-Tiering, S3 Standard-IA, S3 One Zone-IA, S3 Glacier Instant Retrieval, S3 Glacier Flexible Retrieval, and S3 Glacier Deep Archive
+
+
+11)	What is IAM roles and how the cross region roles work
+An IAM role is an IAM identity that you can create in your account that has specific permissions. An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS.
+An IAM user has permanent long-term credentials and is used to directly interact with AWS services. An IAM role does not have any credentials and cannot make direct requests to AWS services.
+
+12)	How to tell one Ec2 to talk to other ec2 in other region
+The easiest way to test this is to put the machines on the same vpc. If they are Linux machines then put them into security groups that allow access in port 22 and try to ssh from one to the other.
+
+If you are asking how to setup network file sharing on each machine then we would need more information about the OS etc.
+
+Finally be aware that the vpc subnetting uses a stateless firewall and you will need to open inbound and outbound ACLs as appropriate.
+
+13)	What is MYsql Aurora/Backup plan done/Masetr and reader endpoints/Failover mechanism
+
+14)	What is CFT template/how a resource depends on other resource
+A template is a declaration of the AWS resources that make up a stack. The template is stored as a text file whose format complies with the JavaScript Object Notation (JSON) or YAML standard.
+The following template contains an AWS::EC2::Instance resource with a DependsOn attribute that specifies myDB, an AWS::RDS::DBInstance. When CloudFormation creates this stack, it first creates myDB, then creates Ec2Instance.
+
+
+AWSTemplateFormatVersion: '2010-09-09'
+Mappings:
+  RegionMap:
+    us-east-1:
+      AMI: ami-0ff8a91507f77f867
+    us-west-1:
+      AMI: ami-0bdb828fd58c52235
+    eu-west-1:
+      AMI: ami-047bb4163c506cd98
+    ap-northeast-1:
+      AMI: ami-06cd52961ce9f0d85
+    ap-southeast-1:
+      AMI: ami-08569b978cc4dfa10
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId:
+        Fn::FindInMap:
+        - RegionMap
+        - Ref: AWS::Region
+        - AMI
+    DependsOn: myDB
+  myDB:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      AllocatedStorage: '5'
+      DBInstanceClass: db.t2.small
+      Engine: MySQL
+      EngineVersion: '5.5'
+      MasterUsername: MyName
+      MasterUserPassword: MyPassword
+
+
+{
+    "AWSTemplateFormatVersion" : "2010-09-09",
+    "Mappings" : {
+        "RegionMap" : {
+            "us-east-1" : {
+                "AMI" : "ami-0ff8a91507f77f867"
+            },
+            "us-west-1" : {
+                "AMI" : "ami-0bdb828fd58c52235"
+            },
+            "eu-west-1" : {
+                "AMI" : "ami-047bb4163c506cd98"
+            },
+            "ap-northeast-1" : {
+                "AMI" : "ami-06cd52961ce9f0d85"
+            },
+            "ap-southeast-1" : {
+                "AMI" : "ami-08569b978cc4dfa10"
+            }
+        }
+    },
+    "Resources" : {
+        "Ec2Instance" : {
+            "Type" : "AWS::EC2::Instance",
+            "Properties" : {
+                "ImageId": {
+                    "Fn::FindInMap": [
+                        "RegionMap",
+                        {
+                            "Ref": "AWS::Region"
+                        },
+                        "AMI"
+                    ]
+                }
+            },
+            "DependsOn" : "myDB"
+        },
+        "myDB" : {
+            "Type" : "AWS::RDS::DBInstance",
+            "Properties" : {
+               "AllocatedStorage" : "5",
+               "DBInstanceClass" : "db.t2.small",
+               "Engine" : "MySQL",
+               "EngineVersion" : "5.5",
+               "MasterUsername" : "MyName",
+               "MasterUserPassword" : "MyPassword"
+            }
+        }
+    }
+}
+
+
+15)	What are importanat components of CFT.
+Description, Parameters, Mappings, Conditions, Resources and Outputs
+
+16)	Which is faster storage EBS or S3
+EBS and EFS are both faster than Amazon S3, with high IOPS and lower latency. EBS is scalable up or down with a single API call. Since EBS is cheaper than EFS, you can use it for database backups and other low-latency interactive applications that require consistent, predictable performance.
+
+17)	How can you convert a public subnet to private subnet?
+Remove IGW & add NAT Gateway, Associate subnet in Private route table
+
+
+
+What is VPC Peering
+What is Elastic Cache
+What is Docker Swarm
+Lets say i have installed Docker Swarm in my machine i have 1 master node and 3 worker node, How can i connect worker node to master.
+Do we need SSL certificate of the worker need to be instaalled in master? to establish connection between Master and Worker node?
+Disadvantage of using Docker?
+What is ELK Stack?
+For example i am having Kubernetes Cluster, I am 10 different Pods thats running python application, How can i send that logs to Kibana for ELK.
+What is the advantage of using Kubernetes?
+How many devops engineers are there in you Company?
+How many projects that you have worked on till today?
+Which programming language you are familier with?
+What is Package Json?
+Have you worked on Terraform?
+What is Ingress?
+What is config Map?
+What is Liveness Probe?
+What is Readiness Probe?
+Deployment in Kubernetes?
+When you have work with Kubernetes last?
+How to configure TLS with Ingress
+What are the various things that can be done to increase Kubernetes security?
+How can we forward the port '8080 (container) -> 8080 (service) -> 8080 (ingress) -> 80 (browser)and how it can be done?
+Explain me how do you take backups for RDS?
+How will run lambda and where you will configure lambda?
+Have you used the same account for all environments? and for all differentprojects
+
+
+Requrements
+Looking for Devops Engineer in good knowledge in Terraform, Nginx, Apache, SonarQube, Kubernetes, Java, Python (any of the programming language is must).
+Service based company
+
+
+Techmojo Interview
+1. Introduce yourself.
+2. Explain the projects pipeline that you have worked soon.
+3. Project Architecture?
+4. Are you using Kubernetes?
+5. How is Tech team, How big is it?
+6. how many services are their in your application?
+7. Is it a microservice architecture or what kind of service is that?
+8. How many services you have and which you maintain?
+9. You willbe having multiple branchs, developers used to push to many branches including feature branch. How do you decide that a particuler branch whenever you are building which environment you are going to push the code will be.
+10. So whenever the developer is pushing the code to feature branchs what is hapenning to the piipeline.
+11. The sementex of the code and if their is any sesitive data in the code and all, but if their is conflit then the build will not get triggered because the webhook wont be called, so yyou have prod,uat,qa, test staging environments.So when developer pushes code to feature branch the webhook will be called because their is a push what happens afterwards  you might not have any environment to push this code - how intelligent is your pipeline in knowing which branch to push and which to skip for example.
+12. Devloper branch and feature branch will be same right? or different? but where does your pipeline stops because their is no environment to 	deploy this and if it deploys in staging area their will going to be an another mess. how does your pipeline decide which code to push which to not.
+13. Whynot use precommit hook or post commit hook, that the developer whenever they push the code they come to know what is wrong when it comes to pipeline its already tested atleast for the code quality.
+14. Any experience with ansible and terraform.
+15. Any idea about docker compose
+16. Write the docker code for any nodeJS application - generic way
+ANS: Code i write
+FROM nodejs
+LABEL
+RUN nodejs
+WORKDIR Create a directory
+COPY path variable
+RUN
+ENV FLASK_ENV='docker'
+EXPOSE 5050
+ENTRYPOINT
+
+17. What is CMD and ENTRYPOINT
+18. When will you decide to write ENTRYPOINT and CMD
+Ans: when we enter -t -p etc with docker image during that we can use CMD thats how we can overide the commands written inside the docker image, with the entry point we can't do that. Thats how we used to debug, generally in production you may not have ENTRYPOINT because in production you take the code which is already tested or you have probably ENTRYPOINT there, but CMD will be there if you want to debug or if there is something wrong with the image when you are building for the first time youneed to do a lot of debugging that is when we use CMD.
+
+19. In the docker file why we are writing multiple lines of RUN commands why don't we write in a single line using &&?
+Ans: For the cacheing purpose we use multiple lines.
+
+20. Why will you use COPY and ADD?
+21. What is the significance use of it?
+
+We have multiple teams, Three teams that require devops - 170 tech team , microservice based architecture java based applications working to move all the stuff to Kubernetes, and other is new project (Microcontent - Micro Front end).
+There is a old big project which is already there, they want to move to completely automated CICD pipeline and stuff in AWS in that team they are usng GIT, GITLAB, GITHUB, Circle CI for CICD, Internet tool sheild some stuff to build on, & Environments.
+
+Start writing somesample docker files, Kubernetes, try to build sample applications NodeJS just to say "Hello World", Work on Pipelines, AWS and GitHub, Work on GitHub actions, Dockerfile start writing.
